@@ -1,0 +1,22 @@
+http://gidunderoneroof.blogspot.com/2014/05/how-to-remove-watermark-from-wow-slider.html
+
+
+
+You can check the link abov , but here is the content of it   :
+
+
+1. Go to data1 folder and then to the images folder. There you can see the added images with the watermarks. Replace the images with the original once but keep in mind the image sizes needs to fit with the watermarked images.
+
+2. After replacing the images go to engine1 folder, right click on wowslider.js and open it.
+
+3. Press ctrl + f (Find) and type “0 0 0 0” then hit “Find Next” twice.
+
+4. You will be able to see something similar to
+
+margin:"0 0 0 0","border-radius":"5px","-moz-border-radius":"5px",outline:"none"}).attr({href:"http://"+d.toLowerCase()}).html(d).bind("contextmenu",function(c){return false}).show().appendTo…………..
+
+Here change show() to hide() and save it. Then this code fragment would look like
+
+margin:"0 0 0 0","border-radius":"5px","-moz-border-radius":"5px",outline:"none"}).attr({href:"http://"+d.toLowerCase()}).html(d).bind("contextmenu",function(c){return false}).hide().appendTo…………..
+
+5. Again when you run index.html file and open the slider in a browser, no watermark can be seen.

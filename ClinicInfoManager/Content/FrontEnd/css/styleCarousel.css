@@ -1,0 +1,38 @@
+body
+
+
+
+.carousel-item {
+    height: 350px;
+    padding-bottom:50px;
+   
+}
+
+.carousel-image-1 {
+  background: url("../img/image1.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/image2.jpg");
+  background-size: cover;
+  
+}
+
+.carousel-image-3 {
+  background: url("../img/image3.jpg");
+  background-size: cover; }
+  
+  .carousel-image-4 {
+  background: url("../img/image4.jpg");
+  background-size: cover; }
+  
+  
+  .carousel-image-5 {
+  background: url("../img/image5.jpg");
+  background-size: cover; }
+
+
+  
+
+
+

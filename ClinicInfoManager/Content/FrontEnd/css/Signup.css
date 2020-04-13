@@ -1,0 +1,40 @@
+
+
+
+
+
+.form-content {
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+.form-control {
+    border-radius: 1.5rem;
+}
+
+#btnSubmit {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+ 
+}
+
+
+
+
+.selectWrapper {
+    border-radius: 36px;
+    display: inline-block;
+    overflow: hidden;
+    background: #cccccc;
+    border: 1px solid #ced4da;
+    margin-bottom: 3.5%;
+}
+
+.selectBox {
+    width: 310px;
+    height: 35px;
+    border: 1px;
+    outline: none;
+}

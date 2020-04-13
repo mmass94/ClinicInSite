@@ -1,0 +1,125 @@
+﻿
+<div class="container register-form">
+    <div class="form" style="margin-top:-45px; color:#2a9cd5;" >
+
+         <div class="card p-7" style="height:33.5rem;"> 
+
+             <div style="padding-bottom:-30px;">
+
+                 <h2 style="padding-top:6px; margin-top:25px; text-align:center; ">
+                     Fill in Your information here and sign up now !
+                 </h2>
+                 <p style="text-align:center; opacity:0.7;">
+                     Choose the plan that suits you best and get started today.
+
+                 </p>
+             </div>
+            
+
+                <div class="form-content">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Clinc Adminstrator First Name *" value="" />
+
+                            </div>
+
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Choose a Username *" value="" />
+                            </div>
+
+
+
+                            <div class="selectWrapper" value="">
+                                <select class="selectBox">
+
+                                    @Html.Partial("_SigupCountries")
+
+                                </select>
+                            </div>
+
+
+
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Enter Your Phone Number " value="" />
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Clinc Adminstrator Last Name *" value="" />
+
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Enter a Password *" value="" />
+                            </div>
+
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" placeholder="Choose your City " value="" />
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Web Site " value="" />
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Email *" value="" />
+
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Confirm Password *" value="" />
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Enter Your Detailed Address *" value="" />
+                            </div>
+
+                            <div class="selectWrapper" value="">
+                                <select class="selectBox">
+
+                                    <option value="" disabled selected> Choose Membership type *</option>
+
+
+                                    <option>Basic</option>
+                                    <option>Standard</option>
+                                    <option>Unlimited</option>
+
+                                </select>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <text style="opacity:0.6 ;color:#ff0000;font-size:15px ;padding-left:20px; padding-top:20px;  
+margin-left: auto; margin-right: auto;">
+                            *Fields marked with an asterisk are required.
+                        </text>
+
+
+
+                        <div class="col-md-12">
+
+
+
+                            <input id="btnSubmit" type="submit" value="Sign Up" class="btn btn-outline-info btn-block">
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
