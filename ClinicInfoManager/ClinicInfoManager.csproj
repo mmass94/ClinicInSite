@@ -198,6 +198,7 @@
     <Content Include="Content\FrontEnd\css\HomeHeading.css" />
     <Content Include="Content\FrontEnd\gulpfile.js" />
     <Content Include="Content\FrontEnd\index.html" />
+    <Content Include="Content\FrontEnd\js\Form.js" />
     <Content Include="Content\FrontEnd\js\LoginackG.js" />
     <Content Include="Content\FrontEnd\js\scrolling-nav.js" />
     <Content Include="Content\FrontEnd\vendor\bootstrap\css\bootstrap-grid.css" />
@@ -321,11 +322,11 @@
     <Content Include="Views\HomePage\_MemshipTypHeadLib.cshtml" />
     <Content Include="Views\HomePage\_CarouselCode.cshtml" />
     <Content Include="Views\HomePage\_MemebrshipTypesCode.cshtml" />
-    <Content Include="Views\HomePage\_SignUpHeadLib.cshtml" />
     <Content Include="Views\HomePage\_SignupCode.cshtml" />
     <Content Include="Views\HomePage\_SigupCountries.cshtml" />
     <Content Include="Views\HomePage\ContactUsCode.cshtml" />
     <Content Include="Views\HomePage\_LoginCode.cshtml" />
+    <Content Include="Views\HomePage\_HomeHeadingCode.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

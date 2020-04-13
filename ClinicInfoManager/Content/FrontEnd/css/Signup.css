@@ -1,8 +1,4 @@
 
-
-
-
-
 .form-content {
     padding: 5%;
     margin-bottom: 2%;
@@ -20,9 +16,6 @@
  
 }
 
-
-
-
 .selectWrapper {
     border-radius: 36px;
     display: inline-block;
@@ -37,4 +30,29 @@
     height: 35px;
     border: 1px;
     outline: none;
+}
+.HeaderText{
+
+
+
+}
+h2 {
+    padding-top: 6px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+    opacity: 0.7;
+}
+text {
+    opacity:0.6 ;
+    color:#ff0000;
+    font-size:15px ;
+    padding-left:20px; 
+    padding-top:20px;
+    margin-left: auto;
+    margin-right: auto;
 }
