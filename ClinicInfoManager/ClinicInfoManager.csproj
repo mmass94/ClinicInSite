@@ -325,7 +325,6 @@
     <Content Include="Views\HomePage\_SignupCode.cshtml" />
     <Content Include="Views\HomePage\_SigupCountries.cshtml" />
     <Content Include="Views\HomePage\ContactUsCode.cshtml" />
-    <Content Include="Views\HomePage\_HomeHeadingCode.cshtml" />
     <Content Include="Views\HomePage\_LoginCode.cshtml" />
   </ItemGroup>
   <ItemGroup>

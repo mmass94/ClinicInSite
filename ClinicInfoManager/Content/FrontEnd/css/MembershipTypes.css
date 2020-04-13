@@ -208,24 +208,6 @@ body {
                 padding: 0 10px;
             }
 
-    #generic_price_table .generic_content .generic_price_btn {
-        margin: 20px 0 32px;
-    }
-
-        #generic_price_table .generic_content .generic_price_btn a {
-            border-radius: 50px;
-            -moz-border-radius: 50px;
-            -ms-border-radius: 50px;
-            -o-border-radius: 50px;
-            -webkit-border-radius: 50px;
-            display: inline-block;
-            font-family: "Lato",sans-serif;
-            font-size: 18px;
-            outline: medium none;
-            padding: 12px 30px;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
 
         #generic_price_table .generic_content,
         #generic_price_table .generic_content:hover,
@@ -244,36 +226,6 @@ body {
             -webkit-transition: all 0.3s ease-in-out 0s;
         }
 
-@media (max-width: 320px) {
-}
-
-@media (max-width: 767px) {
-    #generic_price_table .generic_content {
-        margin-bottom: 75px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    #generic_price_table .col-md-3 {
-        float: left;
-        width: 50%;
-    }
-
-    #generic_price_table .col-md-4 {
-        float: left;
-        width: 50%;
-    }
-
-    #generic_price_table .generic_content {
-        margin-bottom: 75px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-
-@media (min-width: 1200px) {
-}
 
 #generic_price_table_home {
     font-family: 'Raleway', sans-serif;
