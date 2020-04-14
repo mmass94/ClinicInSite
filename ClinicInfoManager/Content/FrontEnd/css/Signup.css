@@ -1,3 +1,13 @@
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+        margin-bottom:140px;
+}
+   
+
+
 
 .form-content {
     padding: 5%;
@@ -9,7 +19,7 @@
 }
 
 #btnSubmit {
-    width: 60%;
+    width: 35%;
     margin-left: auto;
     margin-right: auto;
     margin-top:30px;
@@ -30,11 +40,6 @@
     height: 35px;
     border: 1px;
     outline: none;
-}
-.HeaderText{
-
-
-
 }
 h2 {
     padding-top: 6px;
