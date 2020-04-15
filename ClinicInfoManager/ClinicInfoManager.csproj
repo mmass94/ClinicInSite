@@ -191,6 +191,7 @@
     <Content Include="Content\engine1\ws-ctrl-bootstrap.svg" />
     <Content Include="Content\FrontEnd\.gitignore" />
     <Content Include="Content\FrontEnd\css\contactus.css" />
+    <Content Include="Content\FrontEnd\css\Login.css" />
     <Content Include="Content\FrontEnd\css\Loginbackground.css" />
     <Content Include="Content\FrontEnd\css\MembershipTypes.css" />
     <Content Include="Content\FrontEnd\css\scrolling-nav.css" />
